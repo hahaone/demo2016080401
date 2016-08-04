@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class hello {
     @RequestMapping("/")
     public String sayHello(@RequestParam(value = "name", defaultValue = "World") String name){
-        return "Hello " + name;
+        return "I have to say hello to " + name;
     }
 }
